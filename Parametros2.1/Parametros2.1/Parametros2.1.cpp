@@ -29,5 +29,5 @@ void intercambio(int* x, int* y)
 	int z;
 	z = *x;
 	*x = *y;
-	*y = *x;
+	*y = z;
 }
