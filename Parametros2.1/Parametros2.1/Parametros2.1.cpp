@@ -24,3 +24,10 @@ int main()
 	system("pause");
 	return 0;
 }
+void intercambio(int* x, int* y)
+{
+	int z;
+	z = *x;
+	*x = *y;
+	*y = *x;
+}
